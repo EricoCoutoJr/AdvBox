@@ -1,0 +1,63 @@
+# Pastas temporáris
+src/outputs
+src/downloads
+src/temp
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# IDE/editor configurations
+.vscode/
+.idea/
+
+# PyCharm
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Additional files
+*.log
+*.pot
+*.pid
+*.pyc
+*.pyo
+*/__pycache__/
+**/__pycache__/
+
+# Local configuration files
+*.env
+*.local
+
+

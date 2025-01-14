@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "venv/bin/python", // Caminho do Python virtualenv
+    "python.formatting.provider": "black", // Formatação automática com Black
+    "python.linting.enabled": true,        // Habilita linting
+    "python.linting.pylintEnabled": true,  // Usa Pylint para linting
+    "editor.formatOnSave": true,
+    "python.analysis.extraPaths": [
+        "./src"
+    ] // Formata o código ao salvar
+}
