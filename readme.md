@@ -9,6 +9,12 @@ Este projeto é responsável por extrair, carregar e transformar dados existente
 
 O arquivo compactado (ZIP ou RAR) contém uma série de arquivos .csv que foram exportados de uma aplicação e precisam ser transformados para serem importados por uma aplicação nova. O processo de ELT gera dois novos arquivos: um de processos e outro de clientes, com dados consolidados a partir de um conjunto de tabelas.
 
+### Interface HTML
+A aplicação inclui uma interface de entrada e saída de dados desenvolvida em HTML, facilitando a interação com o usuário. Esta interface foi construída utilizando os frameworks Flask:
+
+- Flask: Responsável pelo desenvolvimento da aplicação Web e roteamento das operações.
+- Pandas: Utilizado para manipulação e análise dos dados, tornando o processo de transformação eficiente.
+
 ### Melhorias Futuras
 Serão implementadas melhorias no algoritmo de transformação para maior eficiência e serão adicionados métodos de validação de dados para garantir a integridade durante o processo.
 
